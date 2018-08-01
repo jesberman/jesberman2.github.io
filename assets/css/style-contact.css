@@ -1,0 +1,121 @@
+
+#sidebar {
+    background-color: rgb(246, 67, 114);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 3%;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+
+    z-index: 10;
+
+
+}
+#self {
+    position: relative;
+    height: 40%;
+    width: 100%;
+    right: 10%;
+    border: black;
+    border-width: 1%;
+    border-style: solid;
+    border-radius: 50%;
+    font-size-adjust: initial;
+}
+
+
+
+.white {
+
+    color: white;
+    z-index: 5;
+}
+
+
+
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+.b-image {
+
+    width:100%;
+    z-index: 1;
+
+}
+
+
+
+.bluescreen {
+    position: fixed;
+    top: -10%;
+    bottom: 0%;
+    height: 110vh;
+    width: 100vw;
+    background-color: rgb(46, 25, 168);
+
+    opacity: 0.55;
+    filter: alpha(opacity=50); 
+    z-index: 6;
+
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 340px) and (min-width: 1px) {
+
+
+
+    #sidebar {
+
+    position: absolute;
+    width: 93%;
+    height: 60%;
+    background-color: rgb(246, 67, 114);
+
+    }
+
+
+    #self {
+        height: 40%;
+        width: 40%;
+        left: 25%;
+    }
+
+
+
+
+
+
+}
